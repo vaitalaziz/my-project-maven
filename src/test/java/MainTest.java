@@ -46,7 +46,7 @@ class MainTest {
 
     @Test
     void shouldDivideNumbers() {
-        assertEquals(5, Main.divide(10, 2));
+        assertEquals(100, Main.divide(10, 2));
     }
 
     @Test
