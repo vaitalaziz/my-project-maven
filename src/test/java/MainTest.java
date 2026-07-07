@@ -50,6 +50,11 @@ class MainTest {
     }
 
     @Test
+    void shouldDivideNumbers2() {
+        assertEquals(5, Main.divide(10, 2));
+    }
+
+    @Test
     void shouldThrowExceptionWhenDividingByZero() {
 
         assertThrows(
